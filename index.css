@@ -8,14 +8,58 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
+
 .navbar {
+  background: linear-gradient(to right, #ff69b4, #ff85c1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar li {
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar a,
+.navbar button {
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 0;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.navbar a:hover,
+.navbar button:hover {
+  color: #ffd700;
+  transform: scale(1.1);
+}
+
+ {
   background-color: #ff69b4;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-.navbar ul {
+
+ ul {
   margin: 0;
   padding: 0;
   display: flex;
@@ -24,11 +68,14 @@ body {
   list-style: none;
 }
 
-.navbar li {
+
+ li {
   margin: 0 15px;
 }
 
-.navbar a, .navbar button {
+
+ a, 
+ button {
   display: block;
   color: white;
   text-decoration: none;
@@ -40,7 +87,8 @@ body {
   cursor: pointer;
 }
 
-.navbar button {
+
+ button {
   font-size: 1.2rem;
 }
 
@@ -79,9 +127,7 @@ ul {
   padding: 0;
 }
 
-ul li::before {
-  content: "🔹 ";
-}
+
 
 a {
   color: #0077cc;
