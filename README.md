@@ -1,8 +1,3 @@
-    ____   ___    ___   _       
-   / __ \ / _ \  / _ \ | |      
-  | |    | | | || | | || |      
-  | |___ | |_| || |_| || |___   
-   \____| \___/  \___/ |_____|
 # 🎓 Portfolio de Foulail Oumar
 
 Bienvenue sur mon portfolio réalisé dans le cadre du **BTS SIO – Option SLAM** au lycée Voillaume (93).  
