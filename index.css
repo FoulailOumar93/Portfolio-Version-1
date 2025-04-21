@@ -1,9 +1,41 @@
+
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
   background-color: #fdf6e3;
   color: #333;
   line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar {
+  background-color: #ff69b4;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a, .navbar button {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 header {
@@ -88,4 +120,13 @@ form button {
 
 form button:hover {
   background-color: #e0559d;
+}
+
+.dark-mode {
+  background-color: #1c1c1c;
+  color: #eee;
+}
+
+.dark-mode a {
+  color: #66b3ff;
 }
