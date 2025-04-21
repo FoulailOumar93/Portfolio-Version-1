@@ -52,7 +52,7 @@ Ce site présente mon **parcours**, mes **compétences**, mes **projets scolaire
 ## 📫 Contact
 
 - 📧 Email : [foulailoumar55@gmail.com](mailto:foulailoumar55@gmail.com)
-- 🕊️ X (ex-Twitter) : [@oumar_foulail](https://x.com/oumar_foulail)
+- 🕊️ X : [@oumar_foulail](https://x.com/oumar_foulail)
 
 ---
 
@@ -67,13 +67,6 @@ Ce site présente mon **parcours**, mes **compétences**, mes **projets scolaire
 
 Merci à tous les profs, camarades et visiteurs de ce portfolio.  
 Un big up à ceux qui comprennent le vrai sens de **கூல்** 😎
-
----
-
-## 📸 Bonus
-
-Tu veux voir à quoi ça ressemble ?  
-🎬 [Clique ici pour la version cinéma tamoul de "COOL"](https://foulailoumar93.github.io/Portfolio-Version-1/assets/banner-cool-tamil.png)
 
 ---
 
