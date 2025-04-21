@@ -20,6 +20,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   list-style: none;
 }
 
@@ -31,11 +32,16 @@ body {
   display: block;
   color: white;
   text-decoration: none;
-  padding: 15px;
+  padding: 15px 20px;
   font-weight: bold;
-  border: none;
+  font-size: 1rem;
   background: none;
+  border: none;
   cursor: pointer;
+}
+
+.navbar button {
+  font-size: 1.2rem;
 }
 
 header {
